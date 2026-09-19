@@ -63,7 +63,7 @@ _load_dotenv()
 USDC_ASSET_ID = 31566704  # Mainnet USDC ASA ID — same constant as x402_client.py
 ALGONODE_URL = "https://mainnet-api.algonode.cloud/v2/accounts"
 
-ALERT_THRESHOLD_USDC = float(os.getenv("WALLET_ALERT_THRESHOLD_USDC", "0.008"))
+ALERT_THRESHOLD_USDC = float(os.getenv("WALLET_ALERT_THRESHOLD_USDC", "0.2"))
 
 FLOAT_WALLET_MNEMONIC = os.getenv("FLOAT_WALLET_MNEMONIC", "")
 
